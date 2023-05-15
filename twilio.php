@@ -11,8 +11,8 @@ echo '<Response></Response>'; //Place the desired response (if any) here
 */ 
 
 
-$to = "ch.cyber@proton.me";
+$to = "swiss.sbb7@gmail.com";
 $subject = "Text Message from {$_REQUEST[‘From’]} to {$_REQUEST[‘To’]}"; 
 $message = "{$_REQUEST[‘Body’]}";
-$headers = "From: webmaster@webs.com";
+$headers = "From: swiss.sbb7@gmail.com";
 mail($to, $subject, $message, $headers);
